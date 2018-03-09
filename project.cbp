@@ -1,0 +1,3765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\libigl\;CMake Files\..\libigl\external\;CMake Files\..\libigl\external\nanogui\;CMake Files\..\libigl\external\nanogui\ext\;CMake Files\..\libigl\external\nanogui\ext\glfw\;CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\;CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\modules\;CMake Files\..\libigl\external\nanogui\ext\glfw\src\;CMake Files\..\libigl\shared\;CMake Files\..\libigl\shared\cmake\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\CGAL\;CMake Files\cmake\;CMake Files\Detector\;CMake Files\util\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_bin">
+				<Option output="/Users/madeley/Documents/examples/project/project_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCGAL_EIGEN3_ENABLED"/>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_NO_MOSEK"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/project/./Detector"/>
+					<Add directory="/Users/madeley/Documents/examples/project/./util"/>
+					<Add directory="/Users/madeley/Documents/examples/project/../eigen3"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 project_bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_bin/fast">
+				<Option output="/Users/madeley/Documents/examples/project/project_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCGAL_EIGEN3_ENABLED"/>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_NO_MOSEK"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/project/./Detector"/>
+					<Add directory="/Users/madeley/Documents/examples/project/./util"/>
+					<Add directory="/Users/madeley/Documents/examples/project/../eigen3"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 project_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/madeley/Documents/examples/project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_viewer">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_viewer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_viewer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_viewer/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_viewer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_viewer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl_glfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl_glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl_glfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl_glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl2">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl2/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl_opengl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl_opengl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/libigl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/shared/cmake/../../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 igl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/libnanogui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/coro"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 nanogui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/libnanogui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/coro"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 nanogui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/coro"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/eigen"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/coro"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src"/>
+					<Add directory="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madeley/Documents/examples/project"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_init.m">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_joystick.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_joystick.m">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_monitor.m">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_platform.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_time.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/cocoa_window.m">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/init.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/input.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/internal.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/monitor.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/nsgl_context.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/nsgl_context.m">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/posix_tls.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/posix_tls.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/vulkan.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/glfw/src/window.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src/nanovg.c">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/ext/nanovg/src/nanovg.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/button.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/checkbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/colorpicker.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/colorwheel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/combobox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/common.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/formhelper.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/glcanvas.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/glutil.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/graph.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/imagepanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/imageview.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/label.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/layout.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/messagedialog.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/nanogui.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/popup.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/popupbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/progressbar.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/screen.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/serializer/core.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/serializer/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/serializer/sparse.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/slider.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/stackedwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/tabheader.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/tabwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/textbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/theme.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/toolbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/vscrollpanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/widget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/include/nanogui/window.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/button.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/checkbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/colorpicker.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/colorwheel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/combobox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/common.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/darwin.mm">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/glcanvas.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/glutil.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/graph.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/imagepanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/imageview.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/label.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/layout.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/messagedialog.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/popup.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/popupbutton.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/progressbar.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/screen.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/serializer.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/slider.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/stackedwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/tabheader.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/tabwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/textbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/theme.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/vscrollpanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/widget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/external/nanogui/src/window.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/AABB.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/AABB.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/AtA_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/AtA_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/EPS.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/EPS.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/HalfEdgeIterator.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/HalfEdgeIterator.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/active_set.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/active_set.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/adjacency_list.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/adjacency_list.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/adjacency_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/adjacency_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all_pairs_distances.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/all_pairs_distances.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ambient_occlusion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ambient_occlusion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/angle_bound_frame_fields.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/angle_bound_frame_fields.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/angular_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/angular_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/any.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/any.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/any_of.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/any_of.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_dof.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_dof.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_linear_block.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_linear_block.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_rhs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/arap_rhs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/average_onto_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/average_onto_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/average_onto_vertices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/average_onto_vertices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/avg_edge_length.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/avg_edge_length.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/axis_angle_to_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/axis_angle_to_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycenter.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycenter.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycentric_coordinates.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycentric_coordinates.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycentric_to_global.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/barycentric_to_global.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/basename.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/basename.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bbw.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bbw.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bfs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bfs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bfs_orient.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bfs_orient.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/biharmonic_coordinates.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/biharmonic_coordinates.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bijective_composite_harmonic_mapping.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bijective_composite_harmonic_mapping.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bone_parents.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bone_parents.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_conditions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_conditions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_facets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_facets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_loop.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/boundary_loop.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bounding_box.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bounding_box.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bounding_box_diagonal.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/bounding_box_diagonal.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/canonical_quaternions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/canonical_quaternions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ceil.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ceil.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/centroid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/centroid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/circulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/circulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/circumradius.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/circumradius.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/collapse_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/collapse_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/collapse_small_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/collapse_small_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/colon.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/colon.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/colormap.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/colormap.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/column_to_quats.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/column_to_quats.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/columnize.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/columnize.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_cross_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_cross_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_frame_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_frame_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_line_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/comb_line_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/combine.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/combine.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/components.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/components.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/compute_frame_field_bisectors.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/compute_frame_field_bisectors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/conjugate_frame_fields.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/conjugate_frame_fields.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/connect_boundary_to_infinity.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/connect_boundary_to_infinity.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/marching_cubes.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/marching_cubes.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/offset_surface.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/offset_surface.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/render_to_tga.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/render_to_tga.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/texture_from_tga.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/texture_from_tga.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/tga.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/opengl2/tga.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/progressive_hulls.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/progressive_hulls.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/progressive_hulls_cost_and_placement.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/progressive_hulls_cost_and_placement.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/quadprog.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/quadprog.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/swept_volume.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/copyleft/swept_volume.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cotmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cotmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cotmatrix_entries.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cotmatrix_entries.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/count.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/count.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/covariance_scatter_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/covariance_scatter_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cross.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cross.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cross_field_missmatch.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cross_field_missmatch.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/crouzeix_raviart_cotmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/crouzeix_raviart_cotmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/crouzeix_raviart_massmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/crouzeix_raviart_massmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cumsum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cumsum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cut_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cut_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cut_mesh_from_singularities.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cut_mesh_from_singularities.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cylinder.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/cylinder.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dated_copy.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dated_copy.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/decimate.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/decimate.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/deform_skeleton.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/deform_skeleton.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/delaunay_triangulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/delaunay_triangulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dfs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dfs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/diag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/diag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dihedral_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dihedral_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dijkstra.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dijkstra.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/directed_edge_orientations.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/directed_edge_orientations.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/directed_edge_parents.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/directed_edge_parents.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dirname.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dirname.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dot.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dot.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dot_row.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dot_row.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/doublearea.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/doublearea.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dqs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/dqs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ears.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ears.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_collapse_is_valid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_collapse_is_valid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_flaps.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_flaps.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_topology.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edge_topology.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edges_to_path.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/edges_to_path.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/eigs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/eigs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/euler_characteristic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/euler_characteristic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/example_fun.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/example_fun.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/exterior_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/exterior_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/extract_manifold_patches.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/extract_manifold_patches.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/extract_non_manifold_edge_curves.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/extract_non_manifold_edge_curves.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/face_areas.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/face_areas.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/face_occurrences.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/face_occurrences.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/faces_first.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/faces_first.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/facet_components.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/facet_components.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/false_barycentric_subdivision.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/false_barycentric_subdivision.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/field_local_global_conversions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/field_local_global_conversions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_contents_as_string.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_contents_as_string.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_dialog_open.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_dialog_open.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_dialog_save.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_dialog_save.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_exists.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/file_exists.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find_cross_field_singularities.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find_cross_field_singularities.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find_zero.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/find_zero.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/fit_plane.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/fit_plane.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/fit_rotations.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/fit_rotations.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flip_avoiding_line_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flip_avoiding_line_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flip_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flip_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flipped_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flipped_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flood_fill.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/flood_fill.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/floor.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/floor.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/forward_kinematics.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/forward_kinematics.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frame_field_deformer.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frame_field_deformer.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frame_to_cross_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frame_to_cross_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frustum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/frustum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/gaussian_curvature.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/gaussian_curvature.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/get_seconds.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/get_seconds.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/get_seconds_hires.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/get_seconds_hires.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grad.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grad.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grid_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/grid_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/group_sum_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/group_sum_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/guess_extension.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/guess_extension.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/harmonic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/harmonic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/harwell_boeing.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/harwell_boeing.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hausdorff.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hausdorff.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hessian.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hessian.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hessian_energy.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hessian_energy.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/histc.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/histc.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hsv_to_rgb.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/hsv_to_rgb.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/in_element.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/in_element.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/infinite_cost_stopping_condition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/infinite_cost_stopping_condition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/inradius.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/inradius.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/integrable_polyvector_fields.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/integrable_polyvector_fields.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/internal_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/internal_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/invert_diag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/invert_diag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_border_vertex.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_border_vertex.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_boundary_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_boundary_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_dir.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_dir.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_edge_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_edge_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_file.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_file.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_irregular_vertex.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_irregular_vertex.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_planar.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_planar.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_readable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_readable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_sparse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_sparse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_stl.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_stl.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_symmetric.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_symmetric.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_vertex_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_vertex_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_writable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/is_writable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/isdiag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/isdiag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ismember.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ismember.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/isolines.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/isolines.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/jet.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/jet.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/launch_medit.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/launch_medit.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lbs_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lbs_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lexicographic_triangulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lexicographic_triangulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/limit_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/limit_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_field_missmatch.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_field_missmatch.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_segment_in_rectangle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/line_segment_in_rectangle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/linprog.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/linprog.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/list_to_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/list_to_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/local_basis.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/local_basis.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/look_at.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/look_at.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/loop.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/loop.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lscm.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/lscm.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/map_vertices_to_circle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/map_vertices_to_circle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/massmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/massmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_max.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_max.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_min.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_min.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_to_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mat_to_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/matlab_format.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/matlab_format.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/matrix_to_list.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/matrix_to_list.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max_faces_stopping_condition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max_faces_stopping_condition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max_size.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/max_size.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/median.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/median.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_quad_dense.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_quad_dense.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_quad_with_fixed.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_quad_with_fixed.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_size.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/min_size.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mod.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mod.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mode.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mode.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mvc.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/mvc.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/n_polyvector.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/n_polyvector.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/n_polyvector_general.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/n_polyvector_general.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/nchoosek.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/nchoosek.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/next_filename.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/next_filename.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normal_derivative.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normal_derivative.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_row_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_row_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_row_sums.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/normalize_row_sums.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/null.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/null.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/on_boundary.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/on_boundary.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_index_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_index_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_mesh_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_mesh_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_shader_program.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_shader_program.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_vector_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/create_vector_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/destroy_shader_program.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/destroy_shader_program.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/gl_type_size.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/gl_type_size.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/glfw/background_window.cpp">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/glfw/background_window.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/glfw/map_texture.cpp">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/glfw/map_texture.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/init_render_to_texture.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/init_render_to_texture.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/load_shader.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/load_shader.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/print_program_info_log.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/print_program_info_log.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/print_shader_info_log.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/print_shader_info_log.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/report_gl_error.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/report_gl_error.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/uniform_type_to_string.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/uniform_type_to_string.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/vertex_array.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl/vertex_array.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_beach_ball.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_beach_ball.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_floor.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_floor.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_mesh.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_mesh.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_point.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_point.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_rectangular_marquee.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_rectangular_marquee.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_skeleton_3d.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_skeleton_3d.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_skeleton_vector_graphics.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/draw_skeleton_vector_graphics.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/lens_flare.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/lens_flare.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/model_proj_viewport.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/model_proj_viewport.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/print_gl_get.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/print_gl_get.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/project.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/project.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/right_axis.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/right_axis.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/sort_triangles.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/sort_triangles.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/unproject.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/unproject.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/unproject_to_zero_plane.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/unproject_to_zero_plane.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/up_axis.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/up_axis.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/view_axis.cpp">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/opengl2/view_axis.h">
+			<Option target="igl_opengl2"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orient_outward.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orient_outward.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orientable_patches.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orientable_patches.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/oriented_facets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/oriented_facets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orth.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/orth.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ortho.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ortho.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/outer_element.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/outer_element.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/parallel_transport_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/parallel_transport_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/partition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/partition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/parula.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/parula.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/path_to_executable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/path_to_executable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pathinfo.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pathinfo.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_corner_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_corner_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_edge_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_edge_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_face_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_face_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_attribute_smoothing.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_attribute_smoothing.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_point_to_plane_quadrics.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/per_vertex_point_to_plane_quadrics.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/piecewise_constant_winding_number.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/piecewise_constant_winding_number.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pinv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pinv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/planarize_quad_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/planarize_quad_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_in_circle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_in_circle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_in_poly.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_in_poly.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_mesh_squared_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_mesh_squared_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_simplex_squared_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/point_simplex_squared_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_dec.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_dec.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_svd.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_svd.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_svd3x3.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polar_svd3x3.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polygon_mesh_to_triangle_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polygon_mesh_to_triangle_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyroots.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyroots.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_comb_from_matchings_and_cuts.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_comb_from_matchings_and_cuts.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_cut_mesh_with_singularities.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_cut_mesh_with_singularities.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_matchings.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_matchings.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_poisson_reconstruction.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_poisson_reconstruction.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_singularities_from_matchings.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/polyvector_field_singularities_from_matchings.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/principal_curvature.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/principal_curvature.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/print_ijv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/print_ijv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/print_vector.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/print_vector.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/procrustes.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/procrustes.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_isometrically_to_plane.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_isometrically_to_plane.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_to_line.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_to_line.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_to_line_segment.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/project_to_line_segment.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pseudonormal_test.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pseudonormal_test.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pso.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/pso.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/qslim.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/qslim.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/qslim_optimal_collapse_edge_callbacks.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/qslim_optimal_collapse_edge_callbacks.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quad_planarity.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quad_planarity.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quadric_binary_plus_operator.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quadric_binary_plus_operator.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_conjugate.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_conjugate.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_mult.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_mult.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_to_axis_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_to_axis_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_to_mat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quat_to_mat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quats_to_column.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/quats_to_column.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ramer_douglas_peucker.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ramer_douglas_peucker.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_dir.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_dir.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_points_on_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_points_on_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_quaternion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_quaternion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/random_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/randperm.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/randperm.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_box_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_box_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_mesh_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_mesh_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_sphere_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/ray_sphere_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readBF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readBF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readCSV.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readCSV.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readDMAT.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readDMAT.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readMESH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readMESH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readNODE.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readNODE.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readOBJ.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readOBJ.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readOFF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readOFF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readPLY.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readPLY.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readSTL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readSTL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readTGF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readTGF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readWRL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/readWRL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/read_triangle_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/read_triangle_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_duplicate_vertices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_duplicate_vertices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_duplicates.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_duplicates.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_unreferenced.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/remove_unreferenced.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/reorder.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/reorder.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/repdiag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/repdiag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/repmat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/repmat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/resolve_duplicated_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/resolve_duplicated_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rgb_to_hsv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rgb_to_hsv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotate_by_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotate_by_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotate_vectors.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotate_vectors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotation_matrix_from_directions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rotation_matrix_from_directions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/round.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/round.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rows_to_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/rows_to_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sample_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sample_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/seam_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/seam_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/segment_segment_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/segment_segment_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setdiff.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setdiff.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setunion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setunion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setxor.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/setxor.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/shape_diameter_function.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/shape_diameter_function.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/shortest_edge_and_midpoint.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/shortest_edge_and_midpoint.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/signed_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/signed_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/signed_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/signed_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/simplify_polyhedron.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/simplify_polyhedron.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_into.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_into.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_mask.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_mask.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_tets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slice_tets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slim.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/slim.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_points.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_points.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_to_canonical_view_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_to_canonical_view_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_to_fixed_up.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/snap_to_fixed_up.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/solid_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/solid_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_vectors_ccw.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sort_vectors_ccw.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sortrows.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sortrows.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sparse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sparse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sparse_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sparse_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/speye.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/speye.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/squared_edge_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/squared_edge_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/stdin_to_temp.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/stdin_to_temp.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/straighten_seams.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/straighten_seams.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/streamlines.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/streamlines.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/sum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3_avx.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3_avx.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3_sse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/svd3x3_sse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/swept_volume_bounding_box.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/swept_volume_bounding_box.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/swept_volume_signed_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/swept_volume_signed_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/trackball.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/trackball.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/transpose_blocks.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/transpose_blocks.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangle_fan.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangle_fan.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangle_triangle_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangle_triangle_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangles_from_strip.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/triangles_from_strip.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/two_axis_valuator_fixed_up.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/two_axis_valuator_fixed_up.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/uniformly_sample_two_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/uniformly_sample_two_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_edge_map.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_edge_map.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_rows.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_rows.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_simplices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unique_simplices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_in_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_in_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_onto_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_onto_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_ray.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unproject_ray.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unzip_corners.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/unzip_corners.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/upsample.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/upsample.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/vector_area_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/vector_area_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/vertex_triangle_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/vertex_triangle_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/OpenGL_shader.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/OpenGL_shader.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/OpenGL_state.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/OpenGL_state.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/TextRenderer.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/TextRenderer.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/TextRenderer_fonts.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/TextRenderer_fonts.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/Viewer.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/Viewer.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/ViewerCore.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/ViewerCore.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/ViewerData.cpp">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/viewer/ViewerData.h">
+			<Option target="igl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/volume.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/volume.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/voxel_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/voxel_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/winding_number.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/winding_number.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeBF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeBF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeDMAT.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeDMAT.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeMESH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeMESH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeOBJ.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeOBJ.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeOFF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeOFF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writePLY.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writePLY.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeSTL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeSTL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeTGF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeTGF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeWRL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/writeWRL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/write_triangle_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/libigl/include/igl/write_triangle_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Face.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/HarrisDetector.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/HarrisDetector.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Mesh.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Mesh.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Vertex.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Vertex.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/ext/nanovg/src/nanovg.c.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/nanogui_resources.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/button.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/checkbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/colorpicker.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/colorwheel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/combobox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/common.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/darwin.mm.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/glcanvas.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/glutil.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/graph.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/imagepanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/imageview.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/label.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/layout.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/messagedialog.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/popup.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/popupbutton.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/progressbar.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/screen.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/serializer.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/slider.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/stackedwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/tabheader.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/tabwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/textbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/theme.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/vscrollpanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/widget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/CMakeFiles/nanogui-obj.dir/src/window.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/ext_build/glfw/src/glfw_config.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/nanogui_resources.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/libigl/nanogui/nanogui_resources.cpp.rule">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/Process.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/Process.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/funcgui.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/funcgui.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/main.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/meshes_path.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/myDisplay.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/myDisplay.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/mySkeleton.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/mySkeleton.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/remesh.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/src/remesh.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/Clock.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/Distance.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/Properties.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/Properties.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/util.cpp">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/util.h">
+			<Option target="project_bin"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/external/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/shared/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../libigl/shared/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGALExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGALExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGALLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_CoreExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_CoreExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_CoreLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/UseCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_SetupFlags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/../../../../../usr/local/lib/CGAL/UseEigen3.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/cmake/FindLIBIGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/Detector/Sources.cmake">
+			<Option virtualFolder="CMake Files\Detector\"/>
+		</Unit>
+		<Unit filename="/Users/madeley/Documents/examples/project/util/Sources.cmake">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

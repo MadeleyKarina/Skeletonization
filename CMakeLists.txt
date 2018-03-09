@@ -1,0 +1,107 @@
+cmake_minimum_required(VERSION 2.6)
+project(project)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+
+find_package(LIBIGL QUIET)
+find_package(CGAL QUIET COMPONENTS Core )
+find_package(eigen)
+
+
+if (NOT LIBIGL_FOUND)
+   message(FATAL_ERROR "libigl not found --- You can download it using: \n git clone --recursive https://github.com/libigl/libigl.git ${PROJECT_SOURCE_DIR}/../libigl")
+endif()
+
+# Compilation flags: adapt to your needs
+if(MSVC)
+  # Enable parallel compilation
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /MP /bigobj")
+  #set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR} )
+  set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR} )
+else()
+  # Libigl requires a modern C++ compiler that supports c++11
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+  set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "." )
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-declarations")
+endif()
+
+
+
+# libigl options: choose between header only and compiled static library
+# Header-only is preferred for small projects. For larger projects the static build
+# considerably reduces the compilation times
+
+option(LIBIGL_USE_STATIC_LIBRARY "Use LibIGL as static library" ON)
+option(LIBIGL_WITH_VIEWER      "Use OpenGL viewer"  ON)
+
+# add a customizable menu bar
+option(LIBIGL_WITH_NANOGUI     "Use Nanogui menu"   ON)
+
+# libigl options: choose your dependencies (by default everything is OFF except opengl)
+option(LIBIGL_WITH_VIEWER      "Use OpenGL viewer"  ON)
+option(LIBIGL_WITH_OPENGL      "Use OpenGL"         ON)
+option(LIBIGL_WITH_OPENGL_GLFW "Use GLFW"           ON)
+option(LIBIGL_WITH_BBW         "Use BBW"            OFF)
+option(LIBIGL_WITH_EMBREE      "Use Embree"         OFF)
+option(LIBIGL_WITH_PNG         "Use PNG"            OFF)
+option(LIBIGL_WITH_TETGEN      "Use Tetgen"         OFF)
+option(LIBIGL_WITH_TRIANGLE    "Use Triangle"       OFF)
+option(LIBIGL_WITH_XML         "Use XML"            OFF)
+option(LIBIGL_WITH_LIM         "Use LIM"            OFF)
+option(LIBIGL_WITH_COMISO      "Use CoMiso"         OFF)
+option(LIBIGL_WITH_MATLAB      "Use Matlab"         OFF) # This option is not supported yet
+option(LIBIGL_WITH_MOSEK       "Use MOSEK"          OFF) # This option is not supported yet
+option(LIBIGL_WITH_CGAL        "Use CGAL"           OFF)
+if(LIBIGL_WITH_CGAL) # Do not remove or move this block, the cgal build system fails without it
+  find_package(CGAL REQUIRED COMPONENTS Core)
+  set(CGAL_DONT_OVERRIDE_CMAKE_FLAGS TRUE CACHE BOOL "CGAL's CMAKE Setup is super annoying ")
+  include(${CGAL_USE_FILE})
+endif()
+
+include( ${CGAL_USE_FILE} )
+include_directories(${catkin_INCLUDE_DIRS})
+add_to_cached_list ( CGAL_EXECUTABLE_TARGETS project )
+
+# Adding libigl: choose the path to your local copy libigl
+# This is going to compile everything you requested
+#message(FATAL_ERROR "${PROJECT_SOURCE_DIR}/../libigl/cmake")
+# cmake -DLIBIGL_INCLUDE_DIR:STRING=/path/to/libiglFILE(GLOB_RECURSE SRCFILES src/*.cpp util/*.cpp Detector/*.cpp)
+file(GLOB_RECURSE HDRFILES src/*.h util/*.h Detector/*.h)
+
+
+add_subdirectory("${LIBIGL_INCLUDE_DIR}/../shared/cmake" "libigl")
+
+# libigl information
+message("libigl includes: ${LIBIGL_INCLUDE_DIRS}")
+message("libigl libraries: ${LIBIGL_LIBRARIES}")
+message("libigl extra sources: ${LIBIGL_EXTRA_SOURCES}")
+message("libigl extra libraries: ${LIBIGL_EXTRA_LIBRARIES}")
+message("libigl definitions: ${LIBIGL_DEFINITIONS}")
+
+# Prepare the build environment
+
+
+#include_directories(BEFORE ${CMAKE_CURRENT_BINARY_DIR})
+set(PROJECT_LIBRARY . )
+
+include( ${PROJECT_LIBRARY}/Detector/Sources.cmake )
+include( ${PROJECT_LIBRARY}/util/Sources.cmake )
+include_directories( ${PROJECT_LIBRARY}/Detector )
+include_directories( ${PROJECT_LIBRARY}/util )
+
+#eigen: how to include directories
+include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/../eigen3/ )
+include( ${EIGEN3_USE_FILE} )
+
+include_directories(${LIBIGL_INCLUDE_DIRS})
+add_definitions(${LIBIGL_DEFINITIONS})
+
+# Add your project files
+FILE(GLOB_RECURSE SRCFILES src/*.cpp util/*.cpp Detector/*.cpp)
+file(GLOB_RECURSE HDRFILES src/*.h util/*.h Detector/*.h)
+
+
+add_executable(${PROJECT_NAME}_bin ${SRCFILES} ${HDRFILES} ${LIBIGL_EXTRA_SOURCES})
+target_link_libraries(${PROJECT_NAME}_bin ${LIBIGL_LIBRARIES} ${LIBIGL_EXTRA_LIBRARIES} ${LIBIGL_VIEWER_EXTRA_LIBRARIES} ${LIBIGL_OPENGL_EXTRA_LIBRARIES} ${LIBIGL_OPENGL_GLFW_EXTRA_LIBRARIES} ${CGAL_LIBRARIES} ${catkin_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES})

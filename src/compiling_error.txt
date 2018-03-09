@@ -1,0 +1,4 @@
+/Users/madeley/Documents/examples/project/src/main.cpp:1:10: fatal error: 'igl/readOFF.h' file not found
+#include <igl/readOFF.h>
+         ^
+1 error generated.
